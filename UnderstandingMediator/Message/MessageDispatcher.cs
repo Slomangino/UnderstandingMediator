@@ -6,8 +6,9 @@ using System.ComponentModel.DataAnnotations;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using UnderstandingMediator.Validator;
 
-namespace UnderstandingMediator
+namespace UnderstandingMediator.Message
 {
     public class MessageDispatcher : IMessageDispatcher
     {

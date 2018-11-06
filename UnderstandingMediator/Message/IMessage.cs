@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace UnderstandingMediator
+namespace UnderstandingMediator.Message
 {
     public interface IMessage<TResult>
     {

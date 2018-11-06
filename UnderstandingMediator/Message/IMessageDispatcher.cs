@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UnderstandingMediator
+namespace UnderstandingMediator.Message
 {
     public interface IMessageDispatcher
     {

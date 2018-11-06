@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using UnderstandingMediator.Message;
 
-namespace UnderstandingMediator
+namespace UnderstandingMediator.Validator
 {
     public interface IValidator<TMessage, TResult> where TMessage : IMessage<TResult>
     {
